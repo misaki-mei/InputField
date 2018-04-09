@@ -1,0 +1,11 @@
+<resources>
+    <string name="input_field_app_name">InputFieldLibrary</string>
+    <string name="input_field_name_df">Name</string>
+    <string name="input_field_category_df">Category</string>
+    <string name="input_field_value_out_range">value out of range!</string>
+    <string name="input_field_error_syntax">syntax error</string>
+    <string name="input_field_cancel">Cancel</string>
+    <string name="input_field_ok">OK</string>
+    <string name="input_field_select_all">Select All</string>
+    <string name="input_field_clear">Clear</string>
+</resources>

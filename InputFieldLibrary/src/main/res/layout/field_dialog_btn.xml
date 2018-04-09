@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="end"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/if_negativeBtn"
+        android:text="@string/input_field_cancel"
+        android:textColor="@color/input_field_accentColor"
+        style="@style/dialog_btn" />
+
+    <TextView
+        android:text="@string/input_field_ok"
+        android:id="@+id/if_positiveBtn"
+        android:textColor="@color/input_field_primaryColor"
+        style="@style/dialog_btn" />
+</LinearLayout>

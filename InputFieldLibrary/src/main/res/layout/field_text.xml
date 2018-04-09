@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/if_nameTextView"
+        android:text="@string/input_field_name_df"
+        style="@style/input_field_name" />
+
+    <EditText
+        android:id="@+id/if_valueEditText"
+        android:textSize="16sp"
+        android:layout_marginStart="8dp"
+        android:background="@color/input_field_transparent"
+        android:textColor="@color/input_field_darkGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

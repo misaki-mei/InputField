@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="if_text" format="string"/>
+    <attr name="if_description" format="string"/>
+    <attr name="if_key" format="string"/>
+    <attr name="if_title" format="string"/>
+    <attr name="if_number" format="float"/>
+    <attr name="if_maxNumber" format="float"/>
+    <attr name="if_minNumber" format="float"/>
+    <attr name="if_onText" format="string"/>
+    <attr name="if_offText" format="string"/>
+    <attr name="if_checked" format="boolean"/>
+    <attr name="if_entries" format="reference"/>
+    <attr name="if_entryValues" format="reference"/>
+    <attr name="if_entryDesc" format="reference"/>
+    <attr name="if_maxSelections" format="integer"/>
+    <attr name="if_minSelections" format="integer"/>
+    <attr name="if_color" format="color"/>
+    <attr name="if_fixedAlpha" format="boolean"/>
+    <attr name="if_progress" format="float"/>
+    <attr name="if_maxProgress" format="float"/>
+    <attr name="if_minProgress" format="float"/>
+    <attr name="if_hint" format="string"/>
+
+    <declare-styleable name="InputField">
+        <attr name="if_key"/>
+        <attr name="if_title"/>
+    </declare-styleable>
+
+    <declare-styleable name="TextField">
+        <attr name="if_text"/>
+        <attr name="if_hint"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchField">
+        <attr name="if_checked"/>
+        <attr name="if_onText"/>
+        <attr name="if_offText"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckBoxField">
+        <attr name="if_checked"/>
+        <attr name="if_onText"/>
+        <attr name="if_offText"/>
+    </declare-styleable>
+
+    <declare-styleable name="NumberField">
+        <attr name="if_number"/>
+        <attr name="if_maxNumber"/>
+        <attr name="if_minNumber"/>
+        <attr name="if_hint"/>
+    </declare-styleable>
+
+    <declare-styleable name="SeekBarField">
+        <attr name="if_description"/>
+        <attr name="if_progress"/>
+        <attr name="if_maxProgress"/>
+        <attr name="if_minProgress"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorField">
+        <attr name="if_description"/>
+        <attr name="if_fixedAlpha"/>
+        <attr name="if_color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SingleSelectField">
+        <attr name="if_entries"/>
+        <attr name="if_entryValues"/>
+        <attr name="if_entryDesc"/>
+    </declare-styleable>
+
+    <declare-styleable name="MultiSelectField">
+        <attr name="if_description"/>
+        <attr name="if_maxSelections"/>
+        <attr name="if_minSelections"/>
+        <attr name="if_entries"/>
+        <attr name="if_entryValues"/>
+        <attr name="if_entryDesc"/>
+    </declare-styleable>
+
+    <declare-styleable name="CategoryField">
+        <attr name="if_title"/>
+    </declare-styleable>
+
+    <declare-styleable name="FooterField">
+        <attr name="if_text"/>
+    </declare-styleable>
+
+</resources>

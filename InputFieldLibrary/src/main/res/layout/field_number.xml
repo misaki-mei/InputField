@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/if_nameTextView"
+        android:text="@string/input_field_name_df"
+        android:textColor="@color/input_field_black"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/if_valueEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@color/input_field_transparent"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/input_field_darkGray"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_name">
+        <item>hiphop</item>
+        <item>popping</item>
+        <item>jazz</item>
+        <item>breaking</item>
+        <item>waccking</item>
+        <item>locking</item>
+    </string-array>
+
+    <string-array name="select_value">
+        <item>hiphop</item>
+        <item>popping</item>
+        <item>jazz</item>
+        <item>breaking</item>
+        <item>waccking</item>
+        <item>locking</item>
+    </string-array>
+
+    <string-array name="select_desc">
+        <item>hiphop???</item>
+        <item>popping…</item>
+        <item>jazz___</item>
+        <item>breaking6666</item>
+        <item>waccking22223</item>
+        <item>locking****</item>
+    </string-array>
+</resources>

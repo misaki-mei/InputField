@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.snowyuki.inputfieldlibrary.TextField
+        app:if_title="text field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.snowyuki.inputfieldlibrary.NumberField
+        app:if_title="nnnnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.snowyuki.inputfieldlibrary.SwitchField
+        app:if_title="switch field"
+        app:if_onText="meow"
+        app:if_offText="off off off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.snowyuki.inputfieldlibrary.CategoryField
+        app:if_title="category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.snowyuki.inputfieldlibrary.CheckBoxField
+        app:if_title="check me!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.snowyuki.inputfieldlibrary.ColorField
+        app:if_title="cc"
+        app:if_fixedAlpha="false"
+        app:if_color="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.snowyuki.inputfieldlibrary.SeekBarField
+        app:if_title="seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.snowyuki.inputfieldlibrary.SingleSelectField
+        app:if_title="single select"
+        app:if_entries="@array/select_name"
+        app:if_entryValues="@array/select_value"
+        app:if_entryDesc="@array/select_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.snowyuki.inputfieldlibrary.MultiSelectField
+        app:if_title="multi select"
+        app:if_entries="@array/select_name"
+        app:if_entryValues="@array/select_value"
+        app:if_entryDesc="@array/select_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.snowyuki.inputfieldlibrary.FooterField
+        app:if_text="i am footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

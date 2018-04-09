@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/if_nameTextView"
+        android:text="@string/input_field_name_df"
+        style="@style/input_field_name"/>
+
+    <Switch
+        android:id="@+id/if_switcher"
+        android:layout_below="@id/if_nameTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/if_stateTextView"
+        android:layout_below="@id/if_nameTextView"
+        style="@style/input_field_state_hint" />
+</RelativeLayout>
