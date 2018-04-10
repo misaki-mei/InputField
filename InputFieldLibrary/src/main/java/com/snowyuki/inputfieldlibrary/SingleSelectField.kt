@@ -40,13 +40,17 @@ class SingleSelectField : InputField {
             val ta = context.obtainStyledAttributes(attrs,R.styleable.SingleSelectField)
             if_nameTextView.text = title
             val nameArrayId = ta.getResourceId(R.styleable.SingleSelectField_if_entries,-1)
-            if(nameArrayId != -1){
-                nameArray = resources.getStringArray(nameArrayId)
-            }else{nameArray = Array(0,{""}) }
+            nameArray = if(nameArrayId != -1){
+                resources.getStringArray(nameArrayId)
+            }else{
+                Array(0,{""})
+            }
             val valueArrayId = ta.getResourceId(R.styleable.SingleSelectField_if_entryValues,-1)
-            if(valueArrayId != -1){
-                valueArray = resources.getStringArray(valueArrayId)
-            }else{valueArray = Array(0,{""})}
+            valueArray = if(valueArrayId != -1){
+                resources.getStringArray(valueArrayId)
+            }else{
+                Array(0,{""})
+            }
             val descArrayId = ta.getResourceId(R.styleable.SingleSelectField_if_entryDesc,-1)
             if(descArrayId != -1){
                 descArray = resources.getStringArray(descArrayId)

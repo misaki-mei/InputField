@@ -24,12 +24,6 @@ android {
 
 repositories {
     mavenCentral()
-    flatDir{
-        dirs 'libs'
-    }
-    maven{
-        url 'https://dl.bintray.com/mei/ColorPanel/'
-    }
 }
 
 dependencies {
