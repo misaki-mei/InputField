@@ -22,6 +22,10 @@ class TextField : InputField{
     var hint : String
     set(value){if_valueEditText.hint = hint}
     get() = ""
+    
+    var inputType : Int
+        set(value){if_valueEditText.inputType = value}
+        get() = 0
 
     constructor(context: Context) : this(context,null)
     constructor(context: Context, attrs: AttributeSet?) : this(context, attrs,0)
